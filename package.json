@@ -1,17 +1,17 @@
 {
 	"name": "p5play-template",
-	"version": "1.8.0",
+	"version": "1.9.0",
 	"description": "Starter code for p5play projects",
 	"author": "p5play",
 	"license": "CC0",
 	"dependencies": {
-		"p5play": "^3.33.7",
-		"q5": "^3.5.2"
+		"p5play": "^3.35.4",
+		"q5": "^4.6.4"
 	},
 	"scripts": {
 		"v": "npm version patch --force",
 		"V": "npm version minor --force",
-		"dist": "rsync -av --exclude='.git' . ~/dev/ext/p5play-vscode/p5play-template",
+		"dist": "rsync -av --exclude='.git' . ~/dev/ext/q5play-vscode/p5play-template",
 		"version": "git add -A",
 		"postversion": "git push"
 	}
