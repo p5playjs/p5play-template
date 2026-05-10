@@ -13,13 +13,11 @@ This folder contains a basic p5play + [q5.js](https://q5js.org) template to help
 
 ## Getting Started
 
-Use the [p5play VSCode](https://marketplace.visualstudio.com/items?itemName=quinton-ashley.p5play-vscode) or [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for Visual Studio Code to run your project.
+Use the [q5play VSCode](https://marketplace.visualstudio.com/items?itemName=quinton-ashley.q5play-vscode) or [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for Visual Studio Code to run your project.
 
 ## Offline Use
 
-For offline use, install [bun](https://bun.sh/) or [npm](https://nodejs.org). Then in the file menu hover over "Terminal" and select "New Terminal". In your p5play project folder run `bun i` to install the q5 and p5play packages.
-
-Note that to participate in p5play game jams your project must use the latest version of p5play. Use `bun up` or `npm up` to update packages to the latest versions.
+For offline use, install [bun](https://bun.sh/) or [npm](https://nodejs.org). Then in the file menu hover over "Terminal" and select "New Terminal". In your p5play project folder run `bun install` to install the q5 and p5play packages. Use `bun update` or `npm up` to update packages to the latest versions.
 
 ## Read me, Read me!
 
